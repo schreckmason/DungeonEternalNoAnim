@@ -1,0 +1,5 @@
+ - implemented inventory.h and inventory.cpp to provide an interface like logic between PC and items (easier for me to envision)
+ - implemented iList() in ui.cpp to display inventory and provide functionality for commands that utilize the inventory
+		these commands consisted of expunge, inspect, equip, drop, and pick up (see README)
+ - changed Yuxiang's method of UI::printEquipmentSlots() to implement the equipment logic and provide a visual interface so the player can see the symbol of each equipped item, and provide a 
+		place for the functionality to un-equip items (see README) 
